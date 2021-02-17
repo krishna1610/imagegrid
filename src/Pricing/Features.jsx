@@ -4,7 +4,7 @@ import FeaturesList from "./FeaturesList";
 class Features extends React.Component {
   render() {
     return (
-      <div class="col-6 col-md">
+      <div className="col-6 col-md">
         <h5>Features</h5>
         <FeaturesList />
       </div>

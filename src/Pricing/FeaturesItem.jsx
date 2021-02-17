@@ -4,7 +4,7 @@ class FeaturesItem extends React.Component {
   render() {
     return (
       <li>
-        <a class="link-secondary" href="#">
+        <a className="link-secondary" href="#">
           {this.props.name}
         </a>
       </li>

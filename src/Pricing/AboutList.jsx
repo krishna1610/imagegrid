@@ -4,7 +4,7 @@ import AboutItem from "./AboutItem";
 class AboutList extends React.Component {
   render() {
     return (
-      <ul class="list-unstyled text-small">
+      <ul className="list-unstyled text-small">
         <AboutItem name="Team" />
         <AboutItem name="Locations" />
         <AboutItem name="Privacy" />

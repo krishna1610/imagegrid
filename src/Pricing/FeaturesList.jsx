@@ -4,7 +4,7 @@ import FeaturesItem from "./FeaturesItem";
 class FeaturesList extends React.Component {
   render() {
     return (
-      <ul class="list-unstyled text-small">
+      <ul className="list-unstyled text-small">
         <FeaturesItem name="Cool Stuff" />
         <FeaturesItem name="Random feature" />
         <FeaturesItem name="Team feature" />

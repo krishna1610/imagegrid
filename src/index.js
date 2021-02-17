@@ -6,10 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import Pricing from "./Pricing";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Checkout from "./Checkout";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Pricing />
+    <Checkout />
   </React.StrictMode>,
   document.getElementById("root")
 );
