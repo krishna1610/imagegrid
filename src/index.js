@@ -10,7 +10,7 @@ import Checkout from "./Checkout";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Checkout />
+    <Pricing />
   </React.StrictMode>,
   document.getElementById("root")
 );

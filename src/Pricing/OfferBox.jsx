@@ -7,15 +7,8 @@ class OffereBox extends React.Component {
     return (
       <div className="col">
         <div className="card mb-4 shadow-sm">
-          <OffereBoxHeader name={this.props.name} />
-          <OffereBoxBody
-            price={this.props.price}
-            noOfUsers={this.props.noOfUsers}
-            storage={this.props.storage}
-            support={this.props.support}
-            buttonName={this.props.buttonName}
-            buttonStyle={this.props.buttonStyle}
-          />
+          <OffereBoxHeader name={this.props.items.name} />
+          <OffereBoxBody items={this.props.items} />
         </div>
       </div>
     );
